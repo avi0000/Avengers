@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 100px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  align-content: center;
+  text-decoration: underline;
+}
+
+.Title {
+  text-align: center;
+  width: 100%;
+  position: relative;
+
+  font-size: larger;
+  padding: 10px;
+}
+
+header img {
+  width: 134px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .first {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(204, 233, 136);
+}
+li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(37, 44, 20);
+  color: wheat;
+}
+
+main .second {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .first img {
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+main .second div {
+  border: 1px solid black;
+  margin: 10px;
+  width: 324px;
+  text-align: center;
+  font-size: large;
+}
+main .second img {
+  height: 400px;
+  width: 100%;
+}
+main h1 {
+  padding: 10px;
+  font-size: 44px;
+}
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  align-content: center;
+  font-size: 30px;
+  text-align: center;
+}
